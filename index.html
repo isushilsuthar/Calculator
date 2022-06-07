@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2eced8a68d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div input="text" id="display" class="display"></div>
+
+    <div class="heading">
+        <h1>CALCULATOR <i class="fa-solid fa-calculator"></i></h1>
+    </div>
+    <div class="page">
+
+        <div class="project">
+            <h3>
+                Specifications
+            </h3>
+            <p>
+                1. Basic mathematical operations
+            </p>
+            <p>
+            </p>
+            2. Complex operations
+            </p>
+            <p>
+                3. Radians to degrees
+            </p>
+            <p>
+                4. Degrees to radians
+            </p>
+            <p>
+                5. Available history in the given screen
+            </p>
+            <p>
+                6. Matrix Calculations
+            </p>
+            <p>
+                7. Graph plot
+            </p>
+
+        </div>
+        <div id="input">
+
+            <input type="text" name="screen" id="screen">
+        </div>
+
+        <h1 class="hist-head">
+            History <i class="fa-solid fa-fade fa-clock-rotate-left"></i>
+        </h1>
+
+        <div class="calculator">
+
+
+            <table>
+                <tr>
+                    <td><button class="button">sin</button></td>
+                    <td><button class="button">cos</button></td>
+                    <td><button class="button">tan</button></td>
+                    <td><button class="button">rad</button></td>
+                    <td><button class="button">deg</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="button">log</button></td>
+                    <td><button class="button">ln</button></td>
+                    <td><button class="button">(</button></td>
+                    <td><button class="button">)</button></td>
+                    <td><button class="button">inv</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="button" id="!btn">!</button></td>
+                    <td><button class="button" id="c">C</button></td>
+                    <td><button class="button" id="perct">%</button></td>
+                    <td><button class="button" id="del">DEL</button></td>
+                    <td><button class="button" id="divide">÷</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="button" id="power">^</button></td>
+                    <td><button class="button" id="n7">7</button></td>
+                    <td><button class="button" id="n8">8</button></td>
+                    <td><button class="button" id="n9">9</button></td>
+                    <td><button class="button" id="X">X</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="button" id="sqrt">&Sqrt;</button></td>
+                    <td><button class="button" id="n4">4</button></td>
+                    <td><button class="button" id="n5">5</button></td>
+                    <td><button class="button" id="n6">6</button></td>
+                    <td><button class="button" id="min">-</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="button" id="pi">&Pi;</button></td>
+                    <td><button class="button" id="n1">1</button></td>
+                    <td><button class="button" id="n2">2</button></td>
+                    <td><button class="button" id="n3">3</button></td>
+                    <td><button class="button" id="plus">+</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="button" id="e">e</button></td>
+                    <td><button class="button" id="n00">00</button></td>
+                    <td><button class="button" id="n0">0</button></td>
+                    <td><button class="button" id="period">.</button></td>
+                    <td><button class="button" id="eqauls">=</button></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="history">
+            <input type="text" id="history">
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="graph">
+        <h1>Plot the Graph <i class="fa-solid fa-chart-line"></i></h1>
+
+    </div>
+
+    <script src = "main.js"></script>
+
+</body>
+
+</html>
